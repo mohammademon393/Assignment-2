@@ -1,5 +1,13 @@
 
 
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+@import url('https://fonts.cdnfonts.com/css/miama');
+
 
 /* Special styels */
 body{
@@ -8,45 +16,60 @@ body{
 }
 
 *{
-    margin: 2%;
-    
+   margin: 2%;
+   
 }
 .all-p{
-    font-size: 12px;
-    padding-right: 10px;
-    color: rgba(187, 187, 187, 0.875);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color:rgba(255, 255, 255, 0.5);
 }
 
 /* Nav bar */
-.nav{
+
+.nav-section{
     display: flex;
     justify-content:space-between;
+    width: 1060px;
+    height: 46px;
+    top:57px;
+    left: 190px;
+    padding:0 0 0 0px;
 }
 
-
 .head{
-    color: orangered;
-    font-size: 40px;
-    font-weight: bold;
-    display: flex;
+    color:#E6533C;
+    font-size: 36px;
+    font-weight:bolder;
+    font-style: italic;
  
  }
 
 
-.content-nav{
+ .content-nav{
     justify-content: space-evenly;
     gap: 30px;    
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     border-collapse: 2rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    
 
 }
 
 .item{
-    background-color:orangered;
-    padding: 1rem;
-    border-radius: 1.5rem;
-    text-align: center;
+    background-color:rgb(230, 83, 60);
+    width: 52px;
+    height: 21px;
+    border: 8px 20px;
+    padding: 8px 20px 8px 20px;
+    border-radius: 10rem;
+    font-size: 18px;
+    font-weight: 600px;
+    
+    
 
 }
 
@@ -63,49 +86,76 @@ body{
 
 .btn-item{
     display: flex;
+    height: 54px;
+    width: 462;
+    top: 385px;
 }
 
 .btn-primry{
-    background-color:orangered;
-    padding: 10px;
+    background-color:rgb(230, 83, 60);
+    padding: 10px 10px;
     width: 50%;
     color: white;
     border-radius: 2rem;
     text-align: center;
     border: none;
-    margin-top:10px;
-    font-size: 16px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 600px;
 }
 
 
 .btn{
-    padding: 10px;
-    width: 50%;
-    margin-top:10px;
+    padding: 10px ;
+    width:50%;
+    margin-top:5px;
+    margin-bottom: 5px;
     color: white;
     border-radius: 2rem;
     background-color: rgba(0, 0, 0, 0.896);
-    
+    font-size: 18px;
+    font-weight: 600px;
 }
 
 .banar-container{
-   width: 50%;
+   width: 520px;
+   height: 281px;
+   
 }
 .banar-head{
-    font-size: 80px;
-    font-weight: bolder;
+    font-size: 78px;
+    font-weight:900px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+
+}
+.span{
+    font-family: 'Miama', sans-serif;
+    font-size: 105px;
+    font-weight: 400px;
+
+    
 }
 .banar-img{
     background-image: url(../images/Images\ 2.png);
     display: flex;
     background-repeat: no-repeat;
     display:inline;
+    width: 350px;
+    height: 580px;
 }
 .banar-item-1{
-   
-    text-align:left;
-    padding-left: 60%;
+    margin-left:200px;
     margin-top: 10rem;
+
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(20px); 
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     
+    text-align: center;
+   
     
 }
 
