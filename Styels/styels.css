@@ -1,5 +1,3 @@
-
-
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -18,9 +16,16 @@ body{
 *{
    margin: 2%;
    
+   
 }
 .all-p{
     font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color:rgba(255, 255, 255, 0.5);
+}
+.box-p{
+    font-size: 13px;
     font-weight: 400;
     letter-spacing: 0.5px;
     color:rgba(255, 255, 255, 0.5);
@@ -131,8 +136,8 @@ body{
 }
 .span{
     font-family: 'Miama', sans-serif;
-    font-size: 105px;
-    font-weight: 400px;
+    font-size: 78px;
+    font-weight: 900px;
 
     
 }
@@ -147,34 +152,43 @@ body{
 .banar-item-1{
     margin-left:200px;
     margin-top: 10rem;
-
-    background: rgba(255, 255, 255, 0.1); 
-    backdrop-filter: blur(20px); 
-    padding: 10px;
+    background-color:rgba(255, 255, 255, 0.1);  ;
+    backdrop-filter: blur(20);
+    padding: 20px 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-     
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
-   
-    
+    width: 150px;
+    height:70px;
+}
+.banar-item-1 h2{
+    font-size: 40px;
+    font-weight: 900px;
 }
 
 .banar-item-2{
     margin-top: 45%;
     margin-right: 40%;
+    background-color:rgba(255, 255, 255, 0.1);  ;
+    backdrop-filter: blur(20);
+    padding: 5px 5px;
+    border-radius: 10px;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
     
     
 }
 
-.banar-item-1 .banar-item-2 h2{
-    font-size: 20px;
-    font-weight: bold;
+.banar-item-2 h2{
+    font-size: 24px;
+    font-weight: 900px;
 }
 
 
 /* main styels */
 
 /* section 1 */
+
 .frist-item{
     text-align:center;
     justify-content: center; 
@@ -196,17 +210,42 @@ body{
 }
 
 /* main section 2  */
-.main-container-2{
+.img-sec2{
+    height: 312px;
+    width: 366px;
+    border-radius:18px;
+    position:relative;
+    padding: 10px 0px;
+}
+.run-container{
     display: flex;
     
+    
 }
-.run-img{
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
+.run-section{
+    background-color: rgb(34, 34, 34);
+    width: 1060px;
+    height: 371px;
+    margin-top: 101px;
+    justify-content:space-around;
+    border-radius: 18px;
+
 }
-.main-parent-2{
-  display: grid;
-  grid-template-columns: 1fr 0.5fr;
+.run-item h2{
+    font-weight: 900px;
+    font-size: 48px;
+    margin-bottom: 18px;
+    
+}
+.run-item p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.run-item button{
+    margin-top: 20px;
+}
+.run-item{
+    margin-right: 20%;
+    line-gap-override: 20rem;
 }
 
