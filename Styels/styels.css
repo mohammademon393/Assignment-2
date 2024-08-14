@@ -12,7 +12,9 @@ body{
     color: white;
     background-color: rgb(0, 0, 0);
 }
-
+*{
+    margin: 2%;
+}
 
 .all-p{
     font-size: 16px;
@@ -31,7 +33,7 @@ body{
 #section-nav{
     width: 1355px;
     height: 715px;
-    background-color: salmon;
+
 }
 
 .nav-section{
@@ -40,7 +42,7 @@ body{
     width: 1060px;
     height: 46px;
     top:57px;
-    padding-left: 190px;
+    
     
 }
 
