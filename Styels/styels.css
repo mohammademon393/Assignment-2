@@ -217,12 +217,10 @@ body{
 
 .main-parent{
     display: flex;
-   
-}
-.main-parent div h3{
     font-size: 18px;
     font-weight: 600px;
 }
+
 .cyrcle-shape{
     border-radius: 10rem;
 }
