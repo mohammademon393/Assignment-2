@@ -1,0 +1,6 @@
+@media screen and (max-width:576px){
+    .nav-section, .content-nav, .btn-item, .banar-img{
+        flex-direction: column;
+    } 
+} 
+    

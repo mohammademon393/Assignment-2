@@ -11,12 +11,14 @@
 
     <title>Assignment-2</title>
     <link rel="stylesheet" href="./Styels/styels.css">
+    <link rel="stylesheet" href="./Styels/Responsive.css">
 </head>
 <body class="inter">
    <header>
 <!-- nav bar -->
+ <section id="section-nav">
     <nav class="nav">
-        <section class="nav-section">
+        <div class="nav-section">
             <div class="nav-contain">
                 <h1 class="head">Fitnees</h1>
             </div>
@@ -26,11 +28,11 @@
                 <p>Contact</p>
                 <p>About</p>
             </div>
-        </section>
+        </div>
         
     </nav>
 <!-- Banar section -->
-    <section class="banar">
+    <div class="banar">
         <div class="banar-container">
             <h1 class="banar-head">Get body in <span class="span">ohape</span>& stay halthy </h1>
             <p class="all-p">A huges selection of health and fitness content, healthy recipes and transformaton stories to help you get fit and stay fit! </p>
@@ -53,7 +55,9 @@
             
 
         </div>
-    </section>
+    </div>
+ </section>
+   
     </header>
 <!-- main section -->
     <main>
@@ -140,16 +144,28 @@
                 <div class="Calculate-BMI">
                     <h2>Calculate your BMI</h2>
                     <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-                    
-                    <label for="">
-                        <input placeholder="Height/cm" type="text">
-                        <input placeholder="Weight/kg" type="text">
-                    </label> <br>
-                    <label for=""> 
-                        <input placeholder="Age" type="text">
-                    </label>    
-                       
-                   
+
+                    <div>
+                        <label class="label-1" for="">
+                            <input class="text-1" placeholder="Height/cm" type="text">
+                            <input class="text-1" placeholder="Weight/kg" type="text">
+                        </label> <br>
+                        <label for=""> 
+                            <input placeholder="Age" type="text">
+                            <select name="Sex" id="Sex">
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </label> <br>   
+                        <label for="">
+                            <select name="Select an activity factor" id="Select an activity factor">
+                                <option value="One hours">One hours</option>
+                                <option value="Two hours">Two hours</option>
+                                <option value="Three hours">Three hours</option>
+                            </select>
+                        </label>
+                    </div>
                 </div>
             </div>
             
@@ -204,11 +220,11 @@
     <footer>
         <section class="footer-section">
             <div class="footer-container">
-                <div>
-                    <h1 class="footer-h">Fitness</h1>
+                <div class="footer-item">
+                    <h1>Fitness</h1>
                     <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
                 </div>
-                <div>
+                <div class="item-1">
                     <h3>Get started</h3>
                     <p>Service</p>
                     <p>Contact</p>
@@ -216,7 +232,7 @@
                     <p>About Us</p>
                 </div>
                 
-                <div>
+                <div class="item-1">
                     <h3>Get started </h3>
                     <p>Fitness</p>
                     <p>Platform</p>
@@ -224,8 +240,14 @@
                     <p>App Design</p>
 
                 </div>
-
             </div>
+            
+            <div class="line">
+                <hr id="Line" style="border: 1px solid rgba(255, 255, 255, 0.1);">
+                <p>All right reserved @Fitness 2024</p>
+            </div>
+
+
         </section>
     </footer>
 
